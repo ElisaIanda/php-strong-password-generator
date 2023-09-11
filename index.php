@@ -21,13 +21,12 @@ include 'function.php';
     <div class="container">
         <h1 class="my-4">Password Generator</h1>
         <div class="row">
-            <form action="index.php" method="GET">
+            <form action="password.php" method="GET">
                 <div class="mb-3">
                     <label class="form-label">Inserisci lunghezza password da generare:</label>
                     <input class="form-control" name="generatePassword" >
                 </div>
-                <button type="submit" class="btn btn-primary">Genera</button>
-                <div class="py-4">La tua password generata è: <?php echo generatePassword($passwordLenght) ?></div>
+                <button type="submit" class="btn btn-dark">Genera</button>
             </form>
         </div>
     </div>
